@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import ClassComponent from './component/classComponent';
+import Counter from './component/counter';
+import FirstLastName from './component/firstAndLastName';
+import UseEffect from './component/useEffect';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Counter/>   
+      <br />
+      <hr />
+      <FirstLastName/> 
+      <br />
+      <hr />
+      <UseEffect/>  
+      <br />
+      <hr />
+      
     </div>
   );
 }
